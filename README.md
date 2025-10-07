@@ -44,13 +44,16 @@ Users can browse books, register accounts, and perform actions depending on thei
  - Main Screen (Home)
 <img width="2551" height="1286" alt="image" src="https://github.com/user-attachments/assets/b3526114-0fb4-47d0-95de-00e817063ba0" />
  - Details about specific book
-<img width="2553" height="1358" alt="image" src="https://github.com/user-attachments/assets/37ad2a1c-9e60-4d77-8a78-8993f2f8d68d" />
+<img width="2552" height="428" alt="image" src="https://github.com/user-attachments/assets/70235e34-05da-44fa-ad89-9147217ae946" />
  - Sign in page
-<img width="2551" height="1280" alt="image" src="https://github.com/user-attachments/assets/96f124ce-c098-4e97-9bba-eba69acf240f" />
+<img width="338" height="342" alt="image" src="https://github.com/user-attachments/assets/b065fce5-c3cd-4347-9ef2-3769d86b2876" />
  - Register account as a Reader
-<img width="2552" height="1284" alt="image" src="https://github.com/user-attachments/assets/e0a0acdc-92d2-456e-aedd-4b36d5ddd729" />
+<img width="2554" height="496" alt="image" src="https://github.com/user-attachments/assets/36a9f11f-da1e-4a28-af43-12e36281d743" />
  - Register account as a Publisher
-<img width="2560" height="1273" alt="image" src="https://github.com/user-attachments/assets/6c1149d3-a32a-4227-9336-7534ab64aa6d" />
+<img width="2533" height="501" alt="image" src="https://github.com/user-attachments/assets/3a6cd24d-0d83-485b-9a0f-f1705ca730c2" />
+ - Register account as a Librarian
+<img width="1900" height="433" alt="image" src="https://github.com/user-attachments/assets/f937bbc7-4bb4-4c01-9b67-9e62e61cb192" />
+
  - Admin panel for managing users
 <img width="2554" height="1372" alt="image" src="https://github.com/user-attachments/assets/b25205b1-3ec3-4817-b638-53eacfac596b" />
  - Admin panel for managing a specific user by it`s id
