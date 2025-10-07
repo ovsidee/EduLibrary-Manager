@@ -46,7 +46,7 @@ Users can browse books, register accounts, and perform actions depending on thei
  - Details about specific book
 <img width="2552" height="428" alt="image" src="https://github.com/user-attachments/assets/70235e34-05da-44fa-ad89-9147217ae946" />
  - Sign in page
-<img width="338" height="342" alt="image" src="https://github.com/user-attachments/assets/b065fce5-c3cd-4347-9ef2-3769d86b2876" />
+<img width="2558" height="560" alt="image" src="https://github.com/user-attachments/assets/6e515234-5b62-4868-8f5f-8985aff5fff2" />
 - Register account as a Reader
 <img width="2554" height="496" alt="image" src="https://github.com/user-attachments/assets/36a9f11f-da1e-4a28-af43-12e36281d743" />
  - Register account as a Publisher
