@@ -12,7 +12,8 @@ It provides an online catalogue of books and role-based access for Readers, Publ
 Users can browse books, register accounts, and perform actions depending on their assigned roles.
 
 ---
-## 🏗️ Project Structure
+
+## Project Structure
 
 - src/main/
   - java/com/example/tpo12/
@@ -26,6 +27,7 @@ Users can browse books, register accounts, and perform actions depending on thei
     - static/ → CSS / JS / images
     - application.properties
 
+---
 
 ## Features
 
