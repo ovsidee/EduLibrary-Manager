@@ -12,22 +12,20 @@ It provides an online catalogue of books and role-based access for Readers, Publ
 Users can browse books, register accounts, and perform actions depending on their assigned roles.
 
 ---
+## 🏗️ Project Structure
 
-## Project Structure
+- src/main/
+  - java/com/example/tpo12/
+    - controller/ → Web controllers (BookController, AuthController, AdminController)
+    - model/ → Entities (Book, User, Role, etc.)
+    - repository/ → Spring Data JPA repositories
+    - service/ → Business logic (BookService, UserService)
+    - config/ → Spring Security configuration
+  - resources/
+    - templates/ → Thymeleaf views (catalogue.html, login.html, register.html, admin.html, etc.)
+    - static/ → CSS / JS / images
+    - application.properties
 
-src/main/
-.. java/com/example/tpo12/
-...... controller/ # Web controllers (BookController, AuthController, AdminController)
-...... model/ # Entities (Book, User, Role, etc.)
-...... repository/ # Spring Data JPA repositories
-...... service/ # Business logic (BookService, UserService)
-...... config/ # Spring Security configuration
-.
-.. resources/
-...... templates/ # Thymeleaf views (catalogue.html, login.html, register.html, admin.html, etc.)
-...... static/ # CSS / JS / images
-...... application.properties
-..
 
 ## Features
 
