@@ -63,6 +63,7 @@ Users can browse books, register accounts, and perform actions depending on thei
  - Adding a book as a Publisher
 <img width="2542" height="1370" alt="image" src="https://github.com/user-attachments/assets/23ffb4a7-2667-4a95-8766-36a52fcab200" />
 
+and many other functionalities...
 ---
 ### Catalogue
 - Displays all books (title, author, ISBN etc)
