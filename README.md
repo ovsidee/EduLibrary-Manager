@@ -1,10 +1,10 @@
-# 📚 TPO12 Book Library Management System
+# EduLibrary Manager
 
-A Spring Boot web application for managing a digital book catalogue with user authentication and role-based authorization.
+A Spring Boot web application with completed front-end for managing a digital book catalogue with user authentication and role-based authorization.
 
 ---
 
-## 🧭 Overview
+## Overview
 
 This project is a **Book Database Application Library**, developed as part of the **TPO12** coursework.  
 It provides an online catalogue of books and role-based access for Readers, Publishers, Librarians, and Administrators.
@@ -13,7 +13,7 @@ Users can browse books, register accounts, and perform actions depending on thei
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 src/main/
 │
@@ -31,9 +31,9 @@ src/main/
 
 ---
 
-## ⚙️ Features
+## Features
 
-### 👥 User Roles & Permissions
+### User Roles & Permissions
 | Role        | Permissions |
 |--------------|-------------|
 | **Reader**    | View book catalogue, register account |
@@ -43,12 +43,12 @@ src/main/
 
 ---
 
-### 📚 Catalogue
+### Catalogue
 - Displays all books (title, author, ISBN)
 - Clicking a book shows detailed information
 - Accessible to all users (including guests)
 
-### 🧾 Registration
+### Registration
 Separate registration forms for:
 - **Readers**
 - **Publishers**
@@ -58,7 +58,7 @@ Each form collects:
 - Email  
 - Password  
 
-### 🔐 Authentication
+### Authentication
 - Implemented via **Spring Security**
 - Role-based access restrictions
 - Passwords encrypted with BCrypt
@@ -67,18 +67,9 @@ Each form collects:
 
 ## 🖼️ Screenshots
 
-### Catalogue
-![Catalogue](docs/screens/catalogue.png)
-
-### Reader Registration
-![Reader Register](docs/screens/register-reader.png)
-
-### Publisher Registration
-![Publisher Register](docs/screens/register-publisher.png)
-
 ---
 
-## 🧩 Technologies Used
+## Technologies Used
 
 | Layer | Technologies |
 |-------|---------------|
@@ -108,18 +99,3 @@ mvn spring-boot:run
 
 Then open:  
 👉 http://localhost:8080
-
----
-
-## 🧠 Future Enhancements
-
-- Add email verification for new users  
-- Implement REST API for book data  
-- Add pagination and search to catalogue  
-- Unit and integration tests  
-
----
-
-## 🧾 License
-
-MIT License © 2025 ovsidee
