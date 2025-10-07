@@ -6,13 +6,21 @@ A Spring Boot web application with completed front-end for managing a digital bo
 
 ## Overview
 
-This project is a **Book Database Application Library**, developed as part of the **TPO12** coursework.  
+This project is a **Book Database Application Library**.
 It provides an online catalogue of books and role-based access for Readers, Publishers, Librarians, and Administrators.
-
-Users can browse books, register accounts, and perform actions depending on their assigned roles.
-
 ---
 
+## Features
+
+### User Roles & Permissions
+| Role        | Permissions |
+|--------------|-------------|
+| **Reader**    | View book catalogue, register account, login |
+| **Publisher** | Register publisher account, view own books |
+| **Librarian** | Add / edit / delete books, get statical reports about books |
+| **Admin**     | Validate accounts, manage users and roles, adding / editing / deleting books, gets statical reports about books |
+
+---
 ## Project Structure
 
 - src/main/
@@ -29,15 +37,7 @@ Users can browse books, register accounts, and perform actions depending on thei
 
 ---
 
-## Features
 
-### User Roles & Permissions
-| Role        | Permissions |
-|--------------|-------------|
-| **Reader**    | View book catalogue, register account, login |
-| **Publisher** | Register publisher account, view own books |
-| **Librarian** | Add / edit / delete books, get statical reports about books |
-| **Admin**     | Validate accounts, manage users and roles, adding / editing / deleting books, gets statical reports about books |
 
 ---
 ## 🖼️ Screenshots
@@ -65,38 +65,16 @@ Users can browse books, register accounts, and perform actions depending on thei
 
 and many other functionalities...
 ---
-### Catalogue
-- Displays all books (title, author, ISBN etc)
-- Clicking a book shows detailed information
-- Accessible to all users (including guests)
-
-### Registration
-Separate registration forms for:
-- **Readers**
-- **Publishers**
-
-Each form collects: (all input fields are validated)
-- First name, last name  
-- Email  
-- Password  
-
-### Authentication
-- Implemented via **Spring Security**
-- Role-based access restrictions
-- Passwords encrypted with BCrypt
-
----
-
 
 ## Technologies Used
 
 | Layer | Technologies |
 |-------|---------------|
-| **Backend** | Java 17, Spring Boot, Spring MVC, Spring Data JPA |
+| **Backend** | Java 21, Spring Boot, Spring MVC, Spring Data JPA, Spring Security, Hibernate |
 | **Security** | Spring Security, BCrypt |
 | **Frontend** | Thymeleaf, HTML5, Bootstrap |
-| **Database** | MySQL (or H2 for dev) |
-| **Build Tool** | Maven |
+| **Database** | H2 |
+| **Build Tool** | Gradle |
 
 ---
 
