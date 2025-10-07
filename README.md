@@ -50,7 +50,6 @@ The system implements role-based access control to differentiate between Readers
 <img width="2533" height="501" alt="image" src="https://github.com/user-attachments/assets/3a6cd24d-0d83-485b-9a0f-f1705ca730c2" />
  - Register account as a Librarian
 <img width="1900" height="433" alt="image" src="https://github.com/user-attachments/assets/f937bbc7-4bb4-4c01-9b67-9e62e61cb192" />
-
  - Admin panel for managing users
 <img width="2554" height="1372" alt="image" src="https://github.com/user-attachments/assets/b25205b1-3ec3-4817-b638-53eacfac596b" />
  - Admin panel for managing a specific user by it`s id
