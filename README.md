@@ -16,10 +16,11 @@ It provides an online catalogue of books and role-based access for Readers, Publ
 ### User Roles & Permissions
 | Role        | Permissions |
 |--------------|-------------|
-| **Reader**    | View book catalogue, register account, login |
-| **Publisher** | Register publisher account, view own books |
-| **Librarian** | Add / edit / delete books, get statical reports about books |
-| **Admin**     | Validate accounts, manage users and roles, adding / editing / deleting books, gets statical reports about books |
+| **Visitor**   | Can get a list of all books on the site, login, register |
+| **Reader**    | Can search a book by it`s title, Can get all books by its genre, Can get list of newest books (last 5) that were added, can view book catalogue |
+| **Publisher** | Can get a list of all books on a site, Can add new book, delete, edit, get info about a book, view own books |
+| **Librarian** | Can get a list of all users on a site, can get a list of all books in a library, can get a total number of books in library, Add / edit / delete books |
+| **Admin**     | Validate accounts, manage users and roles, adding / editing / deleting books, adding / editing / deleting users, gets statical reports about books, can do everyting that other can do |
 
 ---
 
