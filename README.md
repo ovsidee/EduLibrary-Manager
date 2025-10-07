@@ -40,29 +40,6 @@ Users can browse books, register accounts, and perform actions depending on thei
 | **Admin**     | Validate accounts, manage users and roles, adding / editing / deleting books, gets statical reports about books |
 
 ---
-
-### Catalogue
-- Displays all books (title, author, ISBN etc)
-- Clicking a book shows detailed information
-- Accessible to all users (including guests)
-
-### Registration
-Separate registration forms for:
-- **Readers**
-- **Publishers**
-
-Each form collects:
-- First name, last name  
-- Email  
-- Password  
-
-### Authentication
-- Implemented via **Spring Security**
-- Role-based access restrictions
-- Passwords encrypted with BCrypt
-
----
-
 ## 🖼️ Screenshots
  - Main Screen (Home)
 <img width="2551" height="1286" alt="image" src="https://github.com/user-attachments/assets/b3526114-0fb4-47d0-95de-00e817063ba0" />
@@ -82,6 +59,30 @@ Each form collects:
 <img width="2557" height="1369" alt="image" src="https://github.com/user-attachments/assets/d81147ab-a9f7-4b3e-be85-799415e278b1" />
  - Adding a book as a Publisher
 <img width="2542" height="1370" alt="image" src="https://github.com/user-attachments/assets/23ffb4a7-2667-4a95-8766-36a52fcab200" />
+
+---
+### Catalogue
+- Displays all books (title, author, ISBN etc)
+- Clicking a book shows detailed information
+- Accessible to all users (including guests)
+
+### Registration
+Separate registration forms for:
+- **Readers**
+- **Publishers**
+
+Each form collects: (all input fields are validated)
+- First name, last name  
+- Email  
+- Password  
+
+### Authentication
+- Implemented via **Spring Security**
+- Role-based access restrictions
+- Passwords encrypted with BCrypt
+
+---
+
 
 ## Technologies Used
 
