@@ -8,6 +8,7 @@ A Spring Boot web application with completed front-end for managing a digital bo
 
 This project is a **Book Database Application Library**.
 It provides an online catalogue of books and role-based access for Readers, Publishers, Librarians, and Administrators.
+
 ---
 
 ## Features
@@ -21,6 +22,7 @@ It provides an online catalogue of books and role-based access for Readers, Publ
 | **Admin**     | Validate accounts, manage users and roles, adding / editing / deleting books, gets statical reports about books |
 
 ---
+
 ## Project Structure
 
 - src/main/
@@ -34,12 +36,9 @@ It provides an online catalogue of books and role-based access for Readers, Publ
     - templates/ → Thymeleaf views (catalogue.html, login.html, register.html, admin.html, etc.)
     - static/ → CSS / JS / images
     - application.properties
-
+    
 ---
 
-
-
----
 ## 🖼️ Screenshots
  - Main Screen (Home)
 <img width="2551" height="1286" alt="image" src="https://github.com/user-attachments/assets/b3526114-0fb4-47d0-95de-00e817063ba0" />
