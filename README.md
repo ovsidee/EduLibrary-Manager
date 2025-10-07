@@ -1,13 +1,10 @@
-# EduLibrary Manager
+### EduLibrary Manager
 
-A Spring Boot web application with completed front-end for managing a digital book catalogue with user authentication and role-based authorization.
+# Overview
 
----
-
-## Overview
-
-This project is a **Book Database Application Library**.
-It provides an online catalogue of books and role-based access for Readers, Publishers, Librarians, and Administrators.
+This project is a full-stack Spring Boot web application with a complete front-end interface for managing a digital book catalogue featuring user authentication and role-based authorization.
+It enables users to browse, add, and manage books within an educational library environment, providing a structured and secure workflow.
+The system implements role-based access control to differentiate between Readers, Publishers, Librarians, and Administrators, ensuring that each user type has appropriate permissions and access to specific functionalities.
 
 ---
 
